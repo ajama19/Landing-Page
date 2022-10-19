@@ -1,2 +1,89 @@
 /* styles.css */
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/*footer will have same background colour as here*/
+.one {
+    background-color: rgba(81, 164, 81, 0.379);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin-left: 150px;
+}
+
+.right-links {
+    display: flex;
+    font-size: 18px;
+    gap: 13px;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.left-intro {
+    max-width: 400px;
+    margin-left: 150px;
+}
+
+.introimg {
+    height: 300px;
+    width: 500px;
+    margin-right: 150px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: rgb(245, 255, 245);
+    margin-bottom: 5px;
+}
+
+.title-text {
+    color: rgb(53, 56, 53);
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.intro-btn {
+    color: white;
+    background-color: rgb(53, 56, 53);
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+/* links and lists */
+a {
+    text-decoration: none;
+    color: rgb(53, 56, 53);
+}
+
+ul {
+    list-style-type: none;
+}
