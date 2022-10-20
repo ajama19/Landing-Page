@@ -15,12 +15,11 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
 }
 
 .logo {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     margin-left: 150px;
 }
 
@@ -36,7 +35,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .left-intro {
@@ -72,6 +71,69 @@ body {
     border-radius: 8px;
 }
 
+
+/* Second section */
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-two {
+    color: rgb(53, 56, 53);
+    font-size: 36px;
+    font-weight: extra bold;
+    padding: 40px 0px;
+}
+
+.boxes {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+
+.box-one, .box-two, .box-three, .box-four {
+    max-width: 170px;
+}
+
+.icon {
+    width: 160px;
+    height: 160px;
+    border-color: rgb(53, 56, 53);
+    border-radius: 8px;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.img-subtext {
+    text-align: center;
+    color: rgb(53, 56, 53);
+}
+
+
+
+/* Third section */
+.three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 150px 250px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: rgb(53, 56, 53);
+    align-self: center;
+}
+
+.source {
+    color: rgb(114, 102, 63);
+    align-self: flex-end;
+    font-size: 24px;
+    font-style: bold;
+}
 
 
 
