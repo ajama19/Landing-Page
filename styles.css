@@ -5,9 +5,10 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    min-height: 100vh;
 }
 
-/*footer will have same background colour as here*/
+/* First section */
 .one {
     background-color: rgba(81, 164, 81, 0.379);
 }
@@ -26,7 +27,7 @@ body {
 .right-links {
     display: flex;
     font-size: 18px;
-    gap: 13px;
+    gap: 18px;
     align-items: center;
     margin-right: 150px;
 }
@@ -62,18 +63,18 @@ body {
     margin-bottom: 8px;
 }
 
-.intro-btn {
+.intro-btn, .signup-btn {
     color: white;
     background-color: rgb(53, 56, 53);
     font-weight: bold;
     font-size: 15px;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 8px;
 }
 
 
-/* Second section */
 
+/* Second section */
 .two {
     display: flex;
     flex-direction: column;
@@ -81,7 +82,7 @@ body {
 }
 
 .header-two {
-    color: rgb(53, 56, 53);
+    color: rgb(114, 102, 63);
     font-size: 36px;
     font-weight: extra bold;
     padding: 40px 0px;
@@ -136,11 +137,49 @@ body {
 }
 
 
+/* Fourth section */
+.four {
+    background-color: white;
+    padding: 150px 120px;
+}
+
+.container {
+    background-color: rgb(114, 102, 63);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+    border-radius: 10px;
+}
+
+.container-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(53, 56, 53);
+}
+
+.container-contents {
+    font-size: 18px;
+    color: rgb(245, 255, 245);
+}
 
 
 
+/* Fifth section. */
+.footer {
+    margin-top: auto;
+    background-color: rgba(81, 164, 81, 0.379);
+    color: rgb(53, 56, 53);
+    font-size: 18px;
+    font-weight: extra-bold;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+}
 
-/* links and lists */
+
+
+/* link and list styling */
 a {
     text-decoration: none;
     color: rgb(53, 56, 53);
