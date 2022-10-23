@@ -7,33 +7,34 @@
         <link rel="icon" href="images/favicon.png" type="image/png">
     </head>
 
-    <!-- The body consists of the header, four main sections, and the footer --> 
+    <!-- The body consists four main sections, and the footer --> 
     <body>
 
-        <!-- The header. Consists of nav bar & logo --> 
-        <div class="header">
-            <img class="logo" src="images/logo.png" alt="Logo of a cactus with a straw">
-            <ul class="right-links">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Cactus Cafe</a></li>
-                <li><a href="#">Sign In</a></li>
-            </ul>
-        </div>
-
-        <!-- The first section. Contains website intro -->
+        <!-- The first section. Contains header and website intro -->
         <div class="one">
-            <div class="left-intro">
-                <div class="title">Introducing, Cactus juice!</div>
-                <div class="title-text">Click below to see just why the Cactus Company's new product is flying off the shelves!</div>
-                <button class="intro-btn">Quench yourself.</button>
+            <div class="header">
+                <img class="logo" src="images/logo.png" alt="Logo of a cactus with a straw">
+                <ul class="right-links">
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#join-us">Sign Up</a></li>
+                </ul>
             </div>
 
-            <img class="intro-img" src="images/green-juice.jpg" alt="Green juice in a glass">
+            <div class="header-content">
+                <div class="left-intro">
+                    <div class="title">Introducing, Cactus juice!</div>
+                    <div class="title-text">Click below to see just why the Cactus Company's new product is flying off the shelves!</div>
+                    <button class="intro-btn">Quench yourself.</button>
+                </div>
+
+                <img class="intro-img" src="images/green-juice.jpg" alt="Green juice in a glass">
+            </div>
         </div>
 
         <!-- The second section. Contains information and images. -->
 
-        <div class="two">
+        <div class="two" id="about-us">
             <div class="header-two">See what we're up to.</div>
 
             <div class="boxes">
@@ -61,13 +62,15 @@
         </div>
 
         <!-- The third section. Contains a quote. -->
-        <div class="three">
-            <div class="quote">"Drink cactus juice, it'll quench ya! Nothings quenchier! It's the quenchiest!"</div>
-            <div class="source">- Sokka</div>
+        <div class="three" id="testimonials">
+            <div class="quote-container">
+                <div class="quote">"Drink cactus juice, it'll quench ya! Nothings quenchier! It's the quenchiest!"</div>
+                <div class="source">- Sokka</div>
+            </div>
         </div>
 
         <!-- The fourth section. Contains a sign up window. -->
-        <div class="four">
+        <div class="four" id="join-us">
             <div class="container">
                 <div class="container-text">
                     <div class="container-title">Join our mailing list!</div>
@@ -79,8 +82,7 @@
 
         <!-- The footer. -->
         <div class="footer">
-            <div class="my-github">Copyright &copy; <a href="https://github.com/ajama19">ajama19</a></div>
-            <div class="odin">In conjuntion with the Odin Project</div>
+            <div class="my-github">Copyright &copy; <a href="https://github.com/ajama19" id="me">ajama19</a></div>
         </div>
 
     </body>
